@@ -43,7 +43,9 @@ List digunakan untuk menampilkan data berbentuk daftar.
   <li>Algoritma &amp; Pemrograman</li>
 </ul>
 ```
-![tampilan hasil] ()
+## Hasil Praktek
+
+![tampilan hasil]()
 
 ## 2. Membuat Table
 
@@ -83,6 +85,78 @@ Kode Program:
 
 ![foto]()
 
+## 3. Membuat Form
 
+Saya membuat file `lab3_form.html` untuk membuat form data pelanggan dengan elemen-elemen:
+
+`<form>` → pembungkus form.
+
+`<fieldset>` → memberi batas (kotak) di dalam form.
+
+`<legend>` → judul form.
+
+`<label>` → teks penjelas kolom.
+
+`<input>` dan <textarea> → kolom input.
+
+```html
+
+<form action="proses.php" method="post">
+  <fieldset>
+    <legend>Data Pelanggan</legend>
+
+    <p>
+      <label for="nama">Nama</label>
+      <input type="text" id="nama" name="nama">
+    </p>
+
+    <p>
+      <label for="alamat">Alamat</label>
+      <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+    </p>
+
+    <p>
+      <label>Jenis Kelamin</label>
+      <input id="jk_l" type="radio" name="kelamin" value="L">
+      <label for="jk_l">Laki-laki</label>
+      <input id="jk_p" type="radio" name="kelamin" value="P">
+      <label for="jk_p">Perempuan</label>
+    </p>
+
+    <p>
+      <input type="submit" value="Login">
+    </p>
+  </fieldset>
+</form>
+
+```
+
+## Hasil Praktek
+![foto]()
+
+## 4. Menambahkan CSS pada Form
+
+Saya menambahkan CSS agar tampilan form terlihat lebih rapi dan menarik.
+CSS ditulis di dalam tag `<style>` di bagian `<head>`.
+
+```html
+
+form p > label {
+  display: inline-block;
+  width: 100px;
+}
+form input[type="text"], form textarea {
+  border: 1px solid #197a43;
+}
+form input[type="submit"] {
+  border: 1px solid #197a43;
+  background-color: #197a43;
+  color: white;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+```
+## Hasil Praktek
+![foto]()
 
 
