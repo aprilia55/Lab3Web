@@ -42,33 +42,14 @@ List digunakan untuk menampilkan data berbentuk daftar.
   <li>Struktur Data</li>
   <li>Algoritma &amp; Pemrograman</li>
 </ul>
-
+```
 ![tampilan hasil] ()
 
-## 📊 Langkah 2 — Membuat Table
+## 2. Membuat Table
 
-File kedua: **lab3_tabel.html**  
-Tabel digunakan untuk menampilkan data dalam bentuk **baris dan kolom** agar informasi terlihat rapi dan mudah dibaca.
+Saya membuat file `lab3_tabel.html` untuk menampilkan data dalam bentuk tabel dengan menggunakan tag `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, dan `<td>`.
 
----
-
-### 🧱 Struktur Tabel di HTML
-Tabel pada HTML menggunakan beberapa tag penting:
-
-| Tag | Fungsi |
-|------|---------|
-| `<table>` | Tag utama pembungkus seluruh tabel |
-| `<thead>` | Bagian kepala tabel (biasanya berisi judul kolom) |
-| `<tbody>` | Bagian isi tabel (data baris-barisnya) |
-| `<tr>` | Table Row — untuk membuat satu baris |
-| `<th>` | Table Header — membuat kolom judul (tebal dan rata tengah) |
-| `<td>` | Table Data — membuat isi data kolom |
-
----
-
-### 🧠 Kode Program
-
-Berikut kode tabel dari praktikum:
+Kode Program:
 
 ```html
 <table border="1" cellpadding="6" cellspacing="0">
@@ -95,5 +76,13 @@ Berikut kode tabel dari praktikum:
     </tr>
   </tbody>
 </table>
+
+```
+
+## Hasil Praktek 
+
+![foto]()
+
+
 
 
