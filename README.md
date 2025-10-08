@@ -1,8 +1,12 @@
 # Praktikum 3 — Membuat List, Table, dan Form  
+
 **Nama:** Aprilia Putri  
-**NIM:** _(isi NIM kamu)_  
-**Kelas:** _(isi kelas kamu)_  
-**Mata Kuliah:** Pemrograman Web  
+
+**NIM:** 312410455 
+
+**Kelas:** TI.24.A5 
+
+**Mata Kuliah:** Pemrograman Web 1
 
 ---
 
@@ -45,7 +49,7 @@ List digunakan untuk menampilkan data berbentuk daftar.
 ```
 ## Hasil Praktek
 
-![tampilan hasil]()
+![tampilan hasil](https://github.com/aprilia55/Lab3Web/blob/5edd086e26589a0ccce34691fda3739bed25f9ec/1%20web%203.png)
 
 ## 2. Membuat Table
 
@@ -83,7 +87,7 @@ Kode Program:
 
 ## Hasil Praktek 
 
-![foto]()
+![foto](https://github.com/aprilia55/Lab3Web/blob/5edd086e26589a0ccce34691fda3739bed25f9ec/2.png)
 
 ## 3. Membuat Form
 
@@ -132,7 +136,7 @@ Saya membuat file `lab3_form.html` untuk membuat form data pelanggan dengan elem
 ```
 
 ## Hasil Praktek
-![foto]()
+![foto](https://github.com/aprilia55/Lab3Web/blob/5edd086e26589a0ccce34691fda3739bed25f9ec/3.png)
 
 ## 4. Menambahkan CSS pada Form
 
@@ -157,6 +161,42 @@ form input[type="submit"] {
 }
 ```
 ## Hasil Praktek
-![foto]()
+![foto](https://github.com/aprilia55/Lab3Web/blob/5edd086e26589a0ccce34691fda3739bed25f9ec/4.png)
 
+
+## Pertanyaan & Jawaban
+
+1.**Apa fungsi atribut** `rowspan` dan `colspan` **pada tabel?**
+
+`rowspan` digunakan untuk menggabungkan beberapa baris menjadi satu sel.
+
+`colspan` digunakan untuk menggabungkan beberapa kolom menjadi satu sel.
+
+2.**Apa fungsi atribut** `action` dan `method` **pada tag** `<form>`?
+
+`action` menentukan alamat tujuan data dikirim saat form disubmit.
+
+`method` menentukan cara pengiriman data, yaitu `GET` atau `POST`.
+
+3.**Apa perbedaan antara tag** `<ol>`, `<ul>`, dan `<dl>`?
+
+`<ol>` → daftar terurut (menggunakan angka/huruf).
+
+`<ul>` → daftar tidak terurut (menggunakan simbol).
+
+`<dl>` → daftar definisi (berisi istilah dan penjelasan).
+
+***Kesimpulan***
+
+Pada praktikum ini, saya telah mempelajari:
+
+Cara membuat `List` (Ordered, Unordered, dan Description).
+
+Cara membuat `Table` dengan struktur dan atribut HTML.
+
+Cara membuat `Form` untuk menginput data pengguna.
+
+Cara menambahkan `CSS` agar tampilan form lebih menarik dan rapi.
+
+Dengan pemahaman ini, saya dapat membuat halaman web sederhana yang menampilkan data dan form input dengan struktur yang baik.
 
